@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 100vh;
+            border: 1px solid black;
+            margin: auto;
+            width: 80%;
+            background-color: gray;
+
+        }
+        .inner-main{
+            height: 100vh;
+            border: 1px solid white;
+            margin: auto;
+            width: 90%;
+            margin-top: 40px;
+            background-color: white;
+        }
+        .header{
+            height: 12vh;
+            /* border: 1px solid black; */
+            margin: auto;
+            width: 80%;
+            display: flex;
+        }
+        .logo{
+            width: 20%;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2{
+                font-size: 3rem;
+                font-weight: 500;
+            }
+
+        }
+        .header-content{
+            width: 60%;
+            /* border: 1px solid black; */
+            ul{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 30px;
+                li{
+                    list-style-type: none;
+                    a{
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .header-chat{
+            width: 20%;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button{
+                padding: 8px 32px;
+                background-color: white;
+                border: 1px solid gray;
+            }
+        }
+        /* main-content start here */
+        .main-content{
+            height: 81vh;
+            /* border: 1px solid black; */
+            display: flex;
+
+        }
+        .left-content{
+            width: 50%;
+            /* border: 1px solid black; */
+        }
+        .right-content{
+            width: 50%;
+            /* border: 1px solid black; */
+            background-image: url(statics/vinit-pic.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .left-content-main{
+            height: 55vh;
+            /* border: 1px solid black; */
+            margin: auto;
+            width: 75%;
+        }
+        .ui{
+            padding: 5px 15px;
+            /* border: 1px solid none; */
+            background-color: rgb(81, 81, 179);
+            border-radius: 15px;
+            /* margin-bottom: 10px; */
+            margin-top: 10px;
+            color: white;
+            
+        }
+        .hi{
+            font-size: 3rem;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        .hire{
+            padding: 5px 20px;
+            background-color: orangered;
+            border: none;
+            margin-right: 10px;
+            color: white;
+        }
+        .eight{
+            font-size: 20px;
+            font-weight: bolder;
+            margin-bottom: 0px;
+
+        }
+
+        .left-content-under{
+            height: 23vh;
+            /* border: 1px solid black; */
+            background-color: rgba(18, 8, 8, 0.974);
+        }
+        .under-content{
+            height: 17vh;
+            /* border: 1px solid white; */
+            margin: auto;
+            width: 70%;
+            margin-top: 20px;
+            display: flex;
+        }
+        .under-1{
+            width: 50%;
+            /* border: 1px solid white; */
+            button{
+                background-color: yellow;
+                color: black;
+                padding: 5px 20px;
+            }
+            p{
+                color: white;
+            }
+        }
+        .under-2{
+            width: 50%;
+            /* border: 1px solid white; */
+            /* display: flex;
+            flex-direction: column; */
+
+        }
+        .under-2-div{
+            /* width: 30%; */
+            height: 6vh;
+            /* border: 1px solid white; */
+            display: flex;
+            p{
+                color: white;
+                margin-right: 10px;
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="inner-main">
+            <div class="header">
+                <div class="logo">
+                    <h2>vinit</h2>
+                </div>
+                <div class="header-content">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Works</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Services</a></li>
+                    </ul>
+                </div>
+                <div class="header-chat">
+                    <button>Let's chat</button>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="left-content">
+                    <div class="left-content-main">
+                        <span class="hi">Hi! I AM</span> <span><button class="ui">UI/UX</button></span>
+                        <p class="hi">Vinit Mittal</p>
+                        <p>designing user interface for over 7 years </p>
+                        <p>as a product designer</p>
+
+                        <span><button class="hire">Hire me</button></span> <span>Projects</span>
+                        <p class="eight">+84</p>
+                        <p>clients on work </p>
+                        <p>worldwide</p>
+                    </div>
+                    <div class="left-content-under">
+                        <div class="under-content">
+                            <div class="under-1">
+                                <p>Project</p>
+                                <p>Statitics 2022</p>
+                                <button>Know More</button>
+                            </div>
+                            <div class="under-2">
+                                <div class="under-2-div">
+                                    <p>website design</p> <p>75</p>
+                                </div>
+                                <div class="under-2-div">
+                                    <p>Monile App design</p> <p>64</p>
+                                    
+                            
+                                </div>
+                                <div class="under-2-div">
+                                    <p>Brand Identity</p> <p>37  </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-content">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
